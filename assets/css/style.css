@@ -5905,7 +5905,7 @@ a.text-dark:hover, a.text-dark:focus {
 /*Max-width 470px*/
 @media (max-width: 470px) {
     .header__logo {
-        width: 0;
+        width: 85px;
     }
 }
 
@@ -6098,6 +6098,13 @@ a.text-dark:hover, a.text-dark:focus {
     }
 }
 
+/*Max-width 470px*/
+@media (max-width: 470px) {
+    .language--header {
+        width: 0;
+    }
+}
+
 .social {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6164,6 +6171,13 @@ a.text-dark:hover, a.text-dark:focus {
 
     .social--header .social__icon {
         fill: #fff;
+    }
+}
+
+/*Max-width 470px*/
+@media (max-width: 470px) {
+    .social--header {
+        width: 0;
     }
 }
 
